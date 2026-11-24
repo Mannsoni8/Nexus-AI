@@ -1,0 +1,21 @@
+{
+  "name": "nexus-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "bin": {
+    "nexus": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "experiment:softmax": "node experiments/01-softmax.js"
+  },
+  "keywords": [],
+  "type": "module"
+}
